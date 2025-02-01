@@ -145,10 +145,38 @@
 // }
 
 //- Взяти масив з 10 чисел або створити його. Створити 2й порожній масив. За допомогою будь-якого циклу скопіювати значення одного масиву в інший.
-let numbers =[100,250,50,168,120,345,188,89,95,10];
-let numbersArray = [];
-for (numbers of numbersArray){
-    console.log(numbers);
-    console.log(numbersArray);
+//let numbers =[100,250,50,168,120,345,188,89,95,10];
+// let numbersArray = [];
+// for (let i = 0; i < numbers.length; i++){
+//     numbersArray.push(numbers[i]);
+// }
+// console.log(numbers);
+// console.log(numbersArray);
+
+//
+//- Дано масив: [ 'a', 'b', 'c'] . За допомогою циклу for зібрати всі букви в слово.
+//let arr =[ 'a', 'b', 'c'];
+// let words ='';
+// for (let i = 0; i < arr.length; i++){
+//     words+= arr[i];
+// }
+// console.log(words);
+
+//- Дано масив: [ 'a', 'b', 'c'] . За допомогою циклу while зібрати всі букви в слово.
+//let arr =[ 'a', 'b', 'c'];
+//  let words ='';
+//  let i = 0;
+//  while(i<arr.length){
+//      words+=arr[i];
+//      i++;
+//  }
+//  console.log(words);
+//- Дано масив: [ 'a', 'b', 'c'] . За допомогою циклу for of зібрати всі букви в слово.
+let arr =[ 'a', 'b', 'c'];
+let words ='';
+for (let letter of arr){
+    words += letter;
 }
+console.log(words);
+
 
