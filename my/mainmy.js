@@ -49,20 +49,20 @@
 // console.log(text(longest));
 
 
-function multiExchange(sumUAH,currencyValues,exchangeCurrency){
-    let exchangeRate = 0;
-    for (let i = 0; i < currencyValues.length; i++){
-        if (currencyValues[i].currency === exchangeCurrency){
-            exchangeRate = currencyValues[i].value;
-        }
-    }
-
-
-    if (exchangeRate > 0){
-        return sumUAH / exchangeRate;
-    } else{
-        return 'This is not from values'
-    }
-
-}
-console.log(multiExchange(1000,[{currency: 'USD', value:25}], 'USD'))
+//function multiExchange(sumUAH,currencyValues,exchangeCurrency){
+//     let exchangeRate = 0;
+//     for (let i = 0; i < currencyValues.length; i++){
+//         if (currencyValues[i].currency === exchangeCurrency){
+//             exchangeRate = currencyValues[i].value;
+//         }
+//     }
+//
+//
+//     if (exchangeRate > 0){
+//         return sumUAH / exchangeRate;
+//     } else{
+//         return 'This is not from values'
+//     }
+//
+// }
+// console.log(multiExchange(1000,[{currency: 'USD', value:25}], 'USD'))
