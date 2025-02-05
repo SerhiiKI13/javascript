@@ -21,7 +21,7 @@
 //     if (exchangeRate > 0){
 //         return sumUAH / exchangeRate;
 //     } else {
-//         return 'Pidor';
+//         return '?????';
 //     }
 // }
 // console.log(exchange(1000,[{currency: 'USD', value:25}], 'USD'))
