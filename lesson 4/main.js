@@ -154,7 +154,7 @@ function exchange(sumUAH,currencyValues,exchangeCurrency){
     if (exchangeRate > 0){
         return sumUAH / exchangeRate;
     } else {
-        return 'Pidor';
+        return 'валюты не найдено';
     }
 }
-console.log(exchange(10000,[{currency:'EUR',value:57}],'USD'));
+console.log(exchange(10000,[{currency:'USD',value:25},{currency:'EUR',value:42}],'USD'));
